@@ -114,6 +114,8 @@ GEM
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     orm_adapter (0.5.0)
+    petergate (1.7.5)
+      activerecord (> 4.0.0)
     pg (0.21.0)
     popper_js (1.10.8)
     public_suffix (2.0.5)
@@ -212,6 +214,7 @@ DEPENDENCIES
   jquery-rails
   listen (>= 3.0.5, < 3.2)
   messer_view_tool (~> 0.1.0)
+  petergate (~> 1.7, >= 1.7.5)
   pg
   puma (~> 3.7)
   rails (~> 5.1.2)
